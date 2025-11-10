@@ -205,3 +205,31 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# VS Code
+.vscode/
+
+# Environment variables
+.env
+.env.local
+
+# Data files
+data/raw/
+data/processed/
+data/external/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Model files
+models/
+*.pkl
+*.pickle
